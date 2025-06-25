@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Mini Bank App</title>
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fa-solid fa-credit-card"></i> Bank Account Panel</h1>
+    
+    <div class="info">
+      <p><strong>Owner:</strong> <span id="owner"></span></p>
+      <p><strong>Balance:</strong> <span id="balance"></span></p>
+      <p><strong>Currency:</strong> <span id="currency"></span></p>
+    </div>
+
+    <div class="actions">
+      <input type="number" id="amount" placeholder="Amount" min="0.01"/>
+      <button type="button" onclick="deposit()">Deposit</button>
+      <button type="button" onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <div id="account-operations">
+       <a href="#same" class="create-new-account">Create a account</a>  <!-- to new account -->
+      <a href="#" class="edit-actual-account">Edit a account</a>  <!-- to edit actual account -->
+      <a href="#same" class="delete-actual-account">Delete a account</a>  <!-- delete account and to new account -->
+    </div>
+  </div>
+
+  <script src="BankAccount.js"></script>
+</body>
+</html>

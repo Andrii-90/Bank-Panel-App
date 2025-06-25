@@ -9,24 +9,24 @@
 </head>
 <body>
   <div class="container">
-    <h1><i class="fa-solid fa-credit-card"></i> Bank Account Panel</h1>
+    <h1><i class="fa-solid fa-credit-card"></i> My Bank Account</h1>
     
-    <div class="info">
+    <div class="account-info>
       <p><strong>Owner:</strong> <span id="owner"></span></p>
       <p><strong>Balance:</strong> <span id="balance"></span></p>
       <p><strong>Currency:</strong> <span id="currency"></span></p>
     </div>
 
-    <div class="actions">
-      <input type="number" id="amount" placeholder="Amount" min="0.01"/>
+    <div class="transaction-controls">
+      <input type="number" id="amount" placeholder="Enter amoun" min="0.01"/>
       <button type="button" onclick="deposit()">Deposit</button>
       <button type="button" onclick="withdraw()">Withdraw</button>
     </div>
 
     <div id="account-operations">
-       <a href="#same" class="create-new-account">Create a account</a>  <!-- to new account -->
-      <a href="#" class="edit-actual-account">Edit a account</a>  <!-- to edit actual account -->
-      <a href="#same" class="delete-actual-account">Delete a account</a>  <!-- delete account and to new account -->
+       <a href="#same" class="create-account">Create account</a>  <!-- to new account -->
+      <a href="#" class="edit-current-account">Edit account</a>  <!-- to edit actual account -->
+      <a href="#same" class="delete-current-account">Delete account</a>  <!-- delete account and to new account -->
     </div>
   </div>
 

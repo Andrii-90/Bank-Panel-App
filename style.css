@@ -47,16 +47,16 @@ h1 i {
   color: var(--color-blue);
 }
 
-.info {
+.account-info {
   width: var(--width-in-container);
 }
 
-.info p {
+.account-info p {
   margin: 0.3rem 0;
   text-align: left;
 }
 
-.actions {
+.transaction-controls {
   width: var(--width-in-container);
   display: flex;
   flex-direction: column;
